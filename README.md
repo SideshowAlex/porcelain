@@ -5,6 +5,7 @@ Parses `git status --porcelain=v2 --branch` and outputs nicely formatted strings
 
 <img width="646" alt="screen_shot" src="https://user-images.githubusercontent.com/3930615/27802035-9c1b92d2-6021-11e7-9289-7b8a17164bf4.png">
 
+
 The minimum git version for porcelain v2 with `--branch` is `v2.13.2`.
 Otherwise you can use the old porcelain v1 based parser on the [`legacy` branch](https://github.com/robertgzr/porcelain/tree/legacy).
 
